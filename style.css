@@ -1,0 +1,209 @@
+*{
+    margin: auto;
+    padding: 0%;
+}
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    background-image:linear-gradient(to right,red,green,yellow);
+}
+.unorder {
+    width: 800px;
+    height: auto;
+    border: 3px solid brown;
+    border-radius: 10px;
+    background-color: #a5d3e4;
+    margin-top: 10px;
+}
+.dot {
+    padding-left:350px ;
+}
+.parent {
+    width: 100%;
+    height: 120px;
+    background-color: #71f7cf;
+    border: 2px solid #955b53;
+    border-radius: 1px;
+    margin-top: 10px;
+
+}
+.child {
+    background-color: #63fbfd;
+    border: 2px solid #08621e;
+    border-radius:5px;
+    position: relative;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bolder;
+}
+.child1 {
+    width: 400px;
+    height: 55px;
+    margin-left: 0px;
+
+}
+.child2 {
+    width: 400px;
+    height: 55px;
+    margin-top: -55px;
+
+}
+.child3 {
+    width: 400px;
+    height: 55px;
+
+}
+.child4 {
+    width: 400px;
+    height: 55px;
+    margin-left: 1000px;
+    margin-top: -120px;
+
+}
+h3 {
+    background-image: linear-gradient(to right,red,yellow,red);
+    text-align: center;
+    height: 40px;
+    text-decoration: underline;
+    text-decoration-color: brown;
+    margin-top: 20px;
+}
+.big {
+    width: 100%;
+    height: 250px;
+    margin-top: 15px;
+    border: 3px solid green;
+    background-image: radial-gradient(#1549f3,#2685f6,#57cd70);  
+}
+.box {
+    position: relative;
+    font-weight: bolder;
+}
+h4 {
+    text-decoration: underline;
+    text-decoration-color: brown;
+}
+.box1 {
+    background-color: yellow;
+    border: 2px solid brown;
+    border-radius: 10px;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    line-height: 30px;
+    color: brown;
+    margin-left: 50px;
+    margin-top: 75px;
+}
+.box2 {
+    background-color: yellow;
+    border: 2px solid brown;
+    border-radius: 10px;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    line-height: 30px;
+    color: brown;
+    margin-top: -102px;
+    margin-left: 350px;
+}
+.box3 {
+    background-color: yellow;
+    border: 2px solid brown;
+    border-radius: 10px;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    line-height: 30px;
+    color: brown;
+    margin-top: -102px;
+    margin-left: 650px;
+}
+.box4 {
+    background-color: yellow;
+    border: 2px solid brown;
+    border-radius: 10px;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    line-height: 30px;
+    color: brown;
+    margin-top: -102px;
+    margin-left: 950px;
+}
+.grid-container {
+    display: grid;
+    gap: 10px;
+    background-color: white;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    border: 1px solid black;
+    margin-top: 30px;
+}
+.table1 {
+    grid-column: 1/5;
+    grid-row: 1/2;
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(229, 37, 37);
+}
+.table2 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    text-align: center;
+    width: 420px;
+    font-size: 28px;
+    font-weight: bolder;
+    color: white;
+    background-color: #57cd70;
+}
+.table3 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    font-size: 28px;
+    width: 420px;
+    font-weight: bolder;
+    color: white;
+    background-color:#2685f6;
+}
+.table4{
+    grid-column: 3/4;
+    grid-row: 2/3; 
+    font-size: 20px;
+    width: 420px;
+    font-weight: bolder;
+    color: white;
+    background-color:#1549f3;
+}
+.table5{
+    grid-column: 4/5;
+    grid-row: 2/4;
+    font-size: 16px;
+    color: white;
+    font-weight: bolder;
+    background-color: black;
+
+}
+.table6 {
+    grid-column: 1/4;
+    grid-row: 3/4;
+    height: 120px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    background-color: orange;
+}
+.table7 {
+    grid-column: 1/5;
+    grid-row: 4/5;
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+    background-color: #63fbfd;
+}
